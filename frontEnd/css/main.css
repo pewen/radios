@@ -1,3 +1,7 @@
+body {
+    background-color: #000;
+}
+
 .header-hidden {
     position: absolute !important;
     clip: rect(1px, 1px, 1px, 1px);
