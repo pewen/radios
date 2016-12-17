@@ -126,19 +126,19 @@ col = """
 """
 
 radio_div = """<div class="box">
-    <img id="{1}" src="../{0}" class="img-responsive box-img" alt="radio {1}" onclick="playRadio('{2}', '{1}')" />
+    <img id="{1}" src="{0}" class="img-responsive box-img" alt="radio {1}" onclick="playRadio('{2}', '{1}')" />
 </div><!--/box -->
 """
 
 # Get all source and image files
-files = os.listdir('../')
+files = os.listdir('./')
 links_files = [file for file in files if file.endswith('.m3u')]
 images = [file for file in files if file.endswith('.tbn')]
 
 links_files.sort()
 images.sort()
 
-streamings = [read_link('../' + link) for link in links_files]
+streamings = [read_link('./' + link) for link in links_files]
 
 divs = []
 for image, streaming in zip(images, streamings):
