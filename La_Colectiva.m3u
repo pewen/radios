@@ -1,1 +1,6 @@
-rtsp://sisteplay1.streamwowza.com:1935/radiohd/26541/
+# web: http://www.lacolectiva.org.ar
+# categoria: comunitaria
+# pais: Argentina
+# ciudad: CABA
+#
+http://server3.veemesoft.com.ar:26541/;stream
