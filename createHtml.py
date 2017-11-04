@@ -64,7 +64,7 @@ html_body = """<!DOCTYPE html>
 
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 
-            <p></> with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="http://twitter.com/fnbellomo" target="_blank">@fnbellomo</a></p>
+            <p>with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="http://twitter.com/fnbellomo" target="_blank">@fnbellomo</a></p>
               </div><!--/footer-texto -->
 
             </div><!--/container -->
@@ -132,12 +132,13 @@ html_body = """<!DOCTYPE html>
 col = """
 <div class="col-xs-6 col-sm-3 col-md-3">
     {0}
-</div><!--/col-sm-3 -->
+</div> <!--/col-sm-3 -->
 """
 
-radio_div = """<div class="box">
+radio_div = """
+<div class="box">
     <img id="{1}" src="./{0}" class="img-responsive box-img" alt="radio {1}" onclick="playRadio('{2}', '{1}')" />
-</div><!--/box -->
+</div> <!--/box -->
 """
 
 # Get all source and image files
