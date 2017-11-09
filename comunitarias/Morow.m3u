@@ -1,0 +1,13 @@
+# web: http://www.morow.com
+
+#EXTM3U
+#EXTINF:-1,MOROW - THE BEST PROGRESSIVE ROCK OF YESTERDAY AND TODAY (mp3 128k)
+#http://stream.fr.morow.com:8080/morow_med.mp3
+#EXTINF:-1,MOROW - THE BEST PROGRESSIVE ROCK OF YESTERDAY AND TODAY (aac+ 128k)
+http://stream.fr.morow.com:8080/morow_hi.aacp
+#EXTINF:-1,MOROW - THE BEST PROGRESSIVE ROCK OF YESTERDAY AND TODAY (mp3 128k Canada)
+#http://stream.ca.morow.com:8000/morow_med.mp3
+#EXTINF:-1,MOROW - THE BEST PROGRESSIVE ROCK OF YESTERDAY AND TODAY (mp3 128k backup)
+#http://stream.fr.morow.com:9090/
+#EXTINF:-1,MOROW - THE BEST PROGRESSIVE ROCK OF YESTERDAY AND TODAY (mp3 128k backup 2)
+#http://stream.fr.morow.com:8000/morow.mp3

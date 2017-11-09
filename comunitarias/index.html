@@ -18,12 +18,6 @@
 
     <body>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-
         <div class="streaming">
             <audio id="streamingControls" src="http://94.23.40.42:8046/;stream.aac" controls="controls" preload="none">
             </audio>
@@ -348,6 +342,13 @@
 
 <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="box">
+    <img id="Morow" src="./Morow.tbn" class="img-responsive box-img" alt="radio Morow" onclick="playRadio('http://stream.fr.morow.com:8080/morow_hi.aacp', 'Morow')" />
+</div><!--/box -->
+
+</div><!--/col-sm-3 -->
+
+<div class="col-xs-6 col-sm-3 col-md-3">
+    <div class="box">
     <img id="NDR" src="./NDR.tbn" class="img-responsive box-img" alt="radio NDR" onclick="playRadio('http://198.7.61.133:9680/;', 'NDR')" />
 </div><!--/box -->
 
@@ -359,14 +360,14 @@
 </div><!--/box -->
 
 </div><!--/col-sm-3 -->
-
+</div><!--/row --><div class="row">
 <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="box">
     <img id="Placeres-cl" src="./Placeres-cl.tbn" class="img-responsive box-img" alt="radio Placeres-cl" onclick="playRadio('http://192.99.18.164:9856/;', 'Placeres-cl')" />
 </div><!--/box -->
 
 </div><!--/col-sm-3 -->
-</div><!--/row --><div class="row">
+
 <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="box">
     <img id="Presente" src="./Presente.tbn" class="img-responsive box-img" alt="radio Presente" onclick="playRadio('http://ded23.server54.net:8000/stream61', 'Presente')" />
@@ -387,14 +388,14 @@
 </div><!--/box -->
 
 </div><!--/col-sm-3 -->
-
+</div><!--/row --><div class="row">
 <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="box">
     <img id="Radionauta" src="./Radionauta.tbn" class="img-responsive box-img" alt="radio Radionauta" onclick="playRadio('http://stream.codigosur.org:8000/radionautafm.mp3', 'Radionauta')" />
 </div><!--/box -->
 
 </div><!--/col-sm-3 -->
-</div><!--/row --><div class="row">
+
 <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="box">
     <img id="Raices.Rock" src="./Raices.Rock.tbn" class="img-responsive box-img" alt="radio Raices.Rock" onclick="playRadio('http://streamall.alsolnet.com:443/fmraicesrock', 'Raices.Rock')" />
@@ -415,14 +416,14 @@
 </div><!--/box -->
 
 </div><!--/col-sm-3 -->
-
+</div><!--/row --><div class="row">
 <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="box">
     <img id="Solidarity.FM" src="./Solidarity.FM.tbn" class="img-responsive box-img" alt="radio Solidarity.FM" onclick="playRadio('https://stream.radio.co/s5e194df9a/listen', 'Solidarity.FM')" />
 </div><!--/box -->
 
 </div><!--/col-sm-3 -->
-</div><!--/row --><div class="row">
+
 <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="box">
     <img id="Suin.Radio" src="./Suin.Radio.tbn" class="img-responsive box-img" alt="radio Suin.Radio" onclick="playRadio('http://streaming01.shockmedia.com.ar:9580/;', 'Suin.Radio')" />
@@ -443,14 +444,14 @@
 </div><!--/box -->
 
 </div><!--/col-sm-3 -->
-
+</div><!--/row --><div class="row">
 <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="box">
     <img id="Tinkunaco" src="./Tinkunaco.tbn" class="img-responsive box-img" alt="radio Tinkunaco" onclick="playRadio('http://stream.codigosur.org:8000/fm-tinkunaco.mp3', 'Tinkunaco')" />
 </div><!--/box -->
 
 </div><!--/col-sm-3 -->
-</div><!--/row --><div class="row">
+
 <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="box">
     <img id="Tortuga_102.7" src="./Tortuga_102.7.tbn" class="img-responsive box-img" alt="radio Tortuga_102.7" onclick="playRadio('http://200.58.118.108:9989/stream', 'Tortuga_102.7')" />
@@ -471,14 +472,14 @@
 </div><!--/box -->
 
 </div><!--/col-sm-3 -->
-
+</div><!--/row --><div class="row">
 <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="box">
     <img id="UNC_CALF" src="./UNC_CALF.tbn" class="img-responsive box-img" alt="radio UNC_CALF" onclick="playRadio('http://cdn.instream.audio:9032/stream', 'UNC_CALF')" />
 </div><!--/box -->
 
 </div><!--/col-sm-3 -->
-</div><!--/row --><div class="row">
+
 <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="box">
     <img id="UNC_FM_102.3" src="./UNC_FM_102.3.tbn" class="img-responsive box-img" alt="radio UNC_FM_102.3" onclick="playRadio('http://209.95.35.49:7030/stream', 'UNC_FM_102.3')" />
@@ -499,14 +500,14 @@
 </div><!--/box -->
 
 </div><!--/col-sm-3 -->
-
+</div><!--/row --><div class="row">
 <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="box">
     <img id="UNL_FM" src="./UNL_FM.tbn" class="img-responsive box-img" alt="radio UNL_FM" onclick="playRadio('http://184.107.240.26:8565/vivo', 'UNL_FM')" />
 </div><!--/box -->
 
 </div><!--/col-sm-3 -->
-</div><!--/row --><div class="row">
+
 <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="box">
     <img id="UNSL" src="./UNSL.tbn" class="img-responsive box-img" alt="radio UNSL" onclick="playRadio('http://01.solumedia.com.ar:8366/;', 'UNSL')" />
@@ -527,14 +528,14 @@
 </div><!--/box -->
 
 </div><!--/col-sm-3 -->
-
+</div><!--/row --><div class="row">
 <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="box">
     <img id="Viento.Nomade" src="./Viento.Nomade.tbn" class="img-responsive box-img" alt="radio Viento.Nomade" onclick="playRadio('http://200.58.118.108:9695/stream', 'Viento.Nomade')" />
 </div><!--/box -->
 
 </div><!--/col-sm-3 -->
-</div><!--/row --><div class="row">
+
 <div class="col-xs-6 col-sm-3 col-md-3">
     <div class="box">
     <img id="Zapote" src="./Zapote.tbn" class="img-responsive box-img" alt="radio Zapote" onclick="playRadio('http://espora.org:8000/radiozapote.mp3', 'Zapote')" />
@@ -614,5 +615,12 @@
                 oldRadio = radioName;
             }
         </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
     </body>
 </html>
