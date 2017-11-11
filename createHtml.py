@@ -130,9 +130,9 @@ html_body = """<!DOCTYPE html>
 """
 
 col = """
-<div class="col-xs-6 col-sm-3 col-md-3">
+<div class="col">
     {0}
-</div> <!--/col-sm-3 -->
+</div> <!--/col -->
 """
 
 radio_div = """
