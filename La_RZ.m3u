@@ -1,1 +1,5 @@
-rtsp://streamlky.alsolnet.com/larz/larz.stream
+# web: http://www.larz.com.ar
+# nombre: La RZ
+
+http://streamlky.alsolnet.com:443/larz
+
